@@ -480,8 +480,8 @@ body {
 
 .tootlip {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 23px;
 
     cursor: pointer;
 }
@@ -542,8 +542,8 @@ body {
 }
 
 .tootlip--phone {
-    top: 104px;
-    right: 20px;
+    top: 114px;
+    right: 23px;
 }
 
 .input {
@@ -641,7 +641,7 @@ body {
     .reviews__card {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         column-gap: 25px;
 
@@ -892,6 +892,14 @@ body {
         row-gap: 20px;
     }
 
+    .order__timer {
+        flex-direction: column;
+    }
+
+    .order__timer p {
+        font-size: 17px;
+    }
+
     .new__price {
         font-size: 21px;
     }
@@ -986,6 +994,11 @@ body {
         height: auto;
         
     }
+
+    /* Order */
+    .order__timer p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1006,5 +1019,14 @@ body {
     .promo__img img{
         max-width: 100%;
         height: auto;
+    }
+
+    /* Order */
+    .order__timer {
+        padding: 6px;
+    }
+
+    .order__timer p {
+        font-size: 13px;
     }
 }
